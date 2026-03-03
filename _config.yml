@@ -13,8 +13,8 @@ timezone: 'Asia/Chongqing'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://end-season.github.io/project
-root: /project/
+url: https://end-season.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,5 +103,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git  # 改为git
-  repository: https://github.com/end-season/project.git  # 你的仓库地址
+  repository: https://github.com/end-season.git  # 你的仓库地址
   branch: main  # 或 master，取决于你的默认分支
