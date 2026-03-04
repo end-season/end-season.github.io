@@ -1,10 +1,17 @@
 ---
 title: Cmake
 data: 2026-3-4
-tags: Cmake
+tags: CMake
+categories: CMake
+cover: /img_post/image.png
 ---
 
 # Cmake
+
+
+
+> 本文章均来源于B站up 双笙子佯谬 的CMake教学。[视频链接](https://www.bilibili.com/video/BV1fa411r7zp)  [github仓库](https://github.com/parallel101/course)
+
 
 
 
