@@ -105,17 +105,19 @@ target_link_libraries(a.out PUBLIC hellolib)
 * 复杂的工程中，我们需要划分子模块，通常一个库一个目录，比如：
 
   ```
-  hellocmake/                
+  hellocmake/
   │
-  ├── CMakeLists.txt          
+  ├── CMakeLists.txt
   │
-  ├── main.cpp                
+  ├── main.cpp
   │
-  └── hellolib/               
+  └── hellolib/
       │
-      ├── CMakeLists.txt      
+      ├── CMakeLists.txt
       │
-      └── hello.cpp           
+      ├── hello.cpp
+      │
+      └── hello.h         
   ```
 
   
@@ -145,20 +147,22 @@ target_link_libraries(a.out PUBLIC hellolib)
 依旧是刚刚的目录：
 
 ```
-hellocmake/                
+hellocmake/
 │
-├── CMakeLists.txt         
+├── CMakeLists.txt
 │
-├── main.cpp                
+├── main.cpp
 │
-└── hellolib/               
+└── hellolib/
     │
-    ├── CMakeLists.txt     
+    ├── CMakeLists.txt
     │
-    └── hello.cpp           
+    ├── hello.cpp
+    │
+    └── hello.h          
 ```
 
-* 因为`hello.h`被移到了`hellolub`子文件夹里，因此`main.cpp`中要使用`hello()`，需添加：
+* 因为`hello.h`被移到了`hellolib`子文件夹里，因此`main.cpp`中要使用`hello()`，需添加：
 
   ```c
   #include <hellolib/hello.h>
