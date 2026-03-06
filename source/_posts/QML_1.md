@@ -3,7 +3,7 @@ title: QML_1
 data: 2026-3-5
 tags: QML
 categories: QML
-cover: /img_post/qml_cover.png
+cover: ./img_post/qml_cover.png
 ---
 
 # QML-Window介绍
