@@ -18,7 +18,7 @@ cover: /img_post/qml_cover.png
   
 * 点击运行后发现生成了一个宽度640，高度480，标题为`Hello World`的窗口，此窗口对应的属性，也就是qml文件中`Window`的属性。
 
-  ![](./img_post/qml_1.2.png)
+  ![1.2](./img_post/qml_1.2.png)
 
 >  打开帮助页面，查找Window可以查到Window的其他信息。
 
@@ -90,7 +90,7 @@ cover: /img_post/qml_cover.png
 
   自定义的变量也会自动生成对应的changed槽函数：
 
-  ![](./img_post/qml_1.3.png)
+  ![1.3](./img_post/qml_1.3.png)
 
 * `activeFocusItem`:
 
