@@ -14,7 +14,7 @@ cover: /img_post/qml_cover.png
 
   > 使用Qt6.8，Qt Creator 18.0.2创建Qt Quick Application
 
-  ![1.1](/img_post/qml_1.1.png)
+  ![1.1](../img_post/qml_1.1.png)
   
 * 点击运行后发现生成了一个宽度640，高度480，标题为`Hello World`的窗口，此窗口对应的属性，也就是qml文件中`Window`的属性。
 
